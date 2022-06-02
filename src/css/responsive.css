@@ -1,0 +1,71 @@
+@media (max-width: 800px){
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .logo{
+        flex: 1  auto;
+        margin-right: 0%;
+        padding: 2px;
+    }
+
+    .texto-principal h1{
+        font-family: 'Tangerine', cursive;
+        font-size: 5rem;
+        font-weight: 800;
+        margin-bottom: 70%;
+        line-height: 70px;
+    }
+
+    .section{
+        flex-direction: column;
+    }
+
+    .aside{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .publicidade{
+        flex-direction: column;
+        display: flex;
+        flex: 1 1 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width: 768px){
+    .texto-principal h1{
+        margin-bottom: 50%;
+        line-height: 70px;
+    }
+
+}
+
+@media (max-width: 600px){
+    .artigo{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px){
+    .texto-principal h1{
+        margin-bottom: 80%;
+        line-height: 70px;
+    }
+    
+    .aside{
+        flex-direction: column;
+    }
+}
